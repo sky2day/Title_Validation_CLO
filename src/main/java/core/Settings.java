@@ -25,10 +25,10 @@ public class Settings {
 	
 		
 	@Parameter(names={sURL, URL}, description ="URL of Web site -> http://.......")
-	public static String url="http://learn2test.net";
+	public static String url="http://www.thomsonreuters.com";
 
 	@Parameter(names={sTitle, TitleExpected}, description ="Expected title of Web Site")
-	public static String title_expected="learn2test.net";	
+	public static String title_expected="Home | Thomson Reuters";	
 	
 	@Parameter(names={sTest_case_id, Test_case_id}, description ="Test case ID - > TC-xxx.xx")
 	public static String test_case_id="TC-001.01";

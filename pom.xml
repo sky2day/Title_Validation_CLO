@@ -16,9 +16,9 @@
 
   	<dependencies>
   		<dependency>
-			<groupId>net.sourceforge.htmlunit</groupId>
-			<artifactId>htmlunit</artifactId>
-			<version>2.21</version>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-htmlunit-driver</artifactId>
+			<version>2.52.0</version>
   		</dependency>
     	<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -47,7 +47,7 @@
                                   <archive>
                                          <manifest>
                                                 <mainClass>core.SeleniumList_CLO</mainClass>
-                                                <mainClass>${mainClass}</mainClass>
+                                                <!-- <mainClass>${mainClass}</mainClass>-->
                                          </manifest>
                                   </archive>
                                   <descriptorRefs>
