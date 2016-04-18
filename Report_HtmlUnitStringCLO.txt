@@ -1,0 +1,9 @@
+
+>>>>....
+Test Case ID: 		TC-002.01
+URL: 			http://www.time.gov
+Title Expected: 	The Official NIST US Time:
+Title Actual: 		The Official NIST US Time:
+Test Case Result: 	PASSED
+....<<<<
+
