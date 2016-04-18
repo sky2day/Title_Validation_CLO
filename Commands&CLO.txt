@@ -1,0 +1,22 @@
+$ mvn clean package -Dbuild.version="1.1" > Report_Title_Validation_CLO_mvn_pac
+kage.txt
+
+$ java -cp ./target/Title_Validation_CLO-1.1-jar-with-dependencies.jar core.Htm
+lUnitListCLO -l "http://www.apple.com|Apple" "http://www.alegro.com|www.alegro.
+com" "http://www.learn2test.net|learn2t
+est.net" "http://www.time.gov|The Official NIST US Time:" "http://time.com|TIME
+" >> Report_HtmlUnitListCLO.txt
+
+$ java -cp ./target/Title_Validation_CLO-1.1-jar-with-dependencies.jar core.Htm
+lUnitStringCLO -c TC-002.01 -u "http://www.time.gov" -t "The Official NIST US T
+ime:" > Report_HtmlUnitStringCLO.txt
+
+$ java -cp ./target/Title_Validation_CLO-1.1-jar-with-dependencies.jar core.Sel
+eniumStringCLO -c TC-001.01 -u "http://www.time.gov" -t "The Official NIST US T
+ime:" > Report_SeleniumStringCLO.txt
+
+$ java -cp ./target/Title_Validation_CLO-1.1-jar-with-dependencies.jar core.Sel
+eniumListCLO -l "http://www.apple.com|Apple" "http://www.alegro.com|www.alegro.
+com" "http://www.learn2test.net|learn2t
+est.net" "http://www.time.gov|The Official NIST US Time:" "http://time.com|TIME
+" >> Report_SeleniumListCLO.txt
